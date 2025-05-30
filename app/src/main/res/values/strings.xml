@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anima</string>
+    
+    <!-- Игры -->
+    <string name="memory_game">Игра на память</string>
+    <string name="attention_game">Игра на внимание</string>
+    <string name="emotion_game">Дневник эмоций</string>
+    <string name="cognitive_game">Когнитивные игры</string>
+    
+    <!-- Общие -->
+    <string name="start">Начать</string>
+    <string name="finish">Завершить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="score">Счет: %1$d</string>
+    <string name="round">Раунд: %1$d</string>
+    
+    <!-- Игра на память -->
+    <string name="memory_game_description">Запомните последовательность чисел</string>
+    <string name="memory_game_input">Введите числа</string>
+    
+    <!-- Игра на внимание -->
+    <string name="attention_game_description">Найдите все целевые объекты</string>
+    <string name="attention_game_targets">Целевые объекты: %1$d</string>
+    <string name="attention_game_found">Найдено: %1$d</string>
+    
+    <!-- Дневник эмоций -->
+    <string name="emotion_intensity">Интенсивность: %1$d</string>
+    <string name="emotion_triggers">Триггеры</string>
+    <string name="emotion_coping">Стратегии совладания</string>
+    <string name="emotion_effectiveness">Эффективность: %1$d</string>
+    
+    <!-- Когнитивные игры -->
+    <string name="cognitive_puzzle">Пазл</string>
+    <string name="cognitive_logic">Логика</string>
+    <string name="cognitive_pattern">Распознавание паттернов</string>
+    <string name="cognitive_spatial">Пространственное мышление</string>
+</resources>

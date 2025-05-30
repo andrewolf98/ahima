@@ -1,0 +1,14 @@
+package com.anima.data.model
+
+enum class TherapeuticGameType {
+    BREATHING,
+    MEDITATION,
+    COLOR_THERAPY,
+    SOUND_THERAPY,
+    EMOTIONAL_DRAWING,
+    EMOTIONAL_WRITING,
+    THOUGHT_BALANCE,
+    THOUGHT_GARDEN,
+    MOOD_KALEIDOSCOPE,
+    SLEEP_QUEST
+} 
