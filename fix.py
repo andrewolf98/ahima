@@ -344,3 +344,25 @@ echo "Проект успешно обновлён и отправлен на Gi
 
 # Сделать файл исполняемым
 os.system("chmod +x update_github.sh")
+# Создание RelaxScreen.kt
+relax_screen_path = "app/src/main/java/com/example/ahima/ui/RelaxScreen.kt"
+os.makedirs(os.path.dirname(relax_screen_path), exist_ok=True)
+with open(relax_screen_path, "w", encoding="utf-8") as f:
+    f.write("""package com.example.ahima.ui
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import android.content.Context
+
+@Composable
+fun RelaxScreen(context: Context) {
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Релакс-зона", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Text("Медитации, дыхательные практики и нейрозвуки — в разработке.")
+    }
+}
+""")
